@@ -11,7 +11,7 @@ Aplicación de gestión de tareas con backend en Node.js (Express) y frontend en
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/CursoIA.git
+   git clone https://github.com/canderomero17/CursoIA.git
    cd CursoIA
    ```
 
