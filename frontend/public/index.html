@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Lista de Tareas</h1>
+
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="Título de la tarea" required>
+            <textarea id="task-description" placeholder="Descripción (opcional)"></textarea>
+            <input type="date" id="task-dueDate">
+            <select id="task-priority">
+                <option value="Bajo">Bajo</option>
+                <option value="Medio">Medio</option>
+                <option value="Alto">Alto</option>
+            </select>
+            <button type="submit">Añadir Tarea</button>
+        </form>
+
+        <div id="tasks-list">
+            </div>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
